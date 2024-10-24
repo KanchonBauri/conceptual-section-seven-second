@@ -1,0 +1,50 @@
+{
+    "products":[
+        {
+          "id": 1,
+          "name": "EcoFlow Solar Panel",
+          "image_avator": "https://randomuser.me/api/portraits/men/81.jpg",
+          "description": "A portable solar panel for eco-friendly charging on the go, compatible with various devices.",
+          "price": 299.99,
+          "category": "Outdoor Gear",
+          "isFeature": true
+        },
+        {
+          "id": 2,
+          "name": "Zenith Noise-Canceling Earbuds",
+          "image_avator": "https://randomuser.me/api/portraits/women/37.jpg",
+          "description": "Wireless earbuds with advanced noise-cancellation and crystal-clear sound quality for an immersive experience.",
+          "price": 129.99,
+          "category": "Audio",
+          "isFeature": false
+        },
+        {
+          "id": 3,
+          "name": "Lunar Smart Mug",
+          "image_avator": "https://randomuser.me/api/portraits/men/22.jpg",
+          "description": "A temperature-controlled mug that keeps your drink warm for hours, complete with smartphone app connectivity.",
+          "price": 79.99,
+          "category": "Smart Home",
+          "isFeature": true
+        },
+        {
+          "id": 4,
+          "name": "Nimbus 2000 Pro Drone",
+          "image_avator": "https://randomuser.me/api/portraits/women/55.jpg",
+          "description": "Professional-grade drone with a 4K camera, perfect for aerial photography and videography.",
+          "price": 999.99,
+          "category": "Drones",
+          "isFeature": true
+        },
+        {
+          "id": 5,
+          "name": "Atlas Travel Duffel Bag",
+          "image_avator": "https://randomuser.me/api/portraits/men/67.jpg",
+          "description": "A versatile, weatherproof duffel bag for all your travel needs, with multiple compartments for organized packing.",
+          "price": 149.99,
+          "category": "Luggage",
+          "isFeature": false
+        }
+      ]
+      
+}
