@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 
-const SingleProduct = ({ product }) => {
+const SingleProduct = ({ product, handleSelectedProduct }) => {
     // console.log(product)
     const {name, image_avator, description, price, category, isFeature} = product;
     return (
@@ -13,10 +14,10 @@ const SingleProduct = ({ product }) => {
                     <h2 className="card-title">Name: {name}</h2>
                     <p>{description}</p>
                     <p>Price: ${price}</p>
+                    <p>Category: {category} </p>
                     <p>{isFeature? "Feature category" : "not category"}</p>
-                    <p></p>
                     <div className="card-actions">
-                        <button className="btn btn-primary">Buy Now</button>
+                        <button onClick={() => handleSelectedProduct(product)} className="btn btn-primary">Add Cart</button>
                     </div>
                 </div>
             </div>

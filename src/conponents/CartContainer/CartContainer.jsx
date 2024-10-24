@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 import About from "../About/About";
 import Cart from "../Cart/Cart";
 
-const CartContainer = ({ handleIsActiveState, isActive }) => {
+const CartContainer = ({ handleIsActiveState, isActive, selectedProducts }) => {
     // console.log(handleIsActiveState)
     return (
         <div>
@@ -10,7 +11,7 @@ const CartContainer = ({ handleIsActiveState, isActive }) => {
                 <div onClick={() => handleIsActiveState("cart")} className={`${isActive.cart ? "btn bg-blue-600" : "btn"}`}>CART</div>
                 <div onClick={() => handleIsActiveState("about")} className={`${isActive.cart ? "btn" : "btn bg-blue-600"}`} >ABOUT</div>
             </div>
-            {isActive.cart ? <Cart></Cart> : <About></About>}
+            {isActive.cart ? <Cart selectedProducts={selectedProducts} ></Cart> : <About></About>}
             { }
 
         </div>

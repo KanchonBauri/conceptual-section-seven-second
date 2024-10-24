@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 
-const Navbar = () => {
+const Navbar = ({selectedProducts}) => {
     return (
         <div>
             <div className="navbar bg-base-100">
@@ -35,6 +36,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
+    <p className="font-bold text-1xl " >Cart: {selectedProducts.length}</p>
     <a className="btn">Button</a>
   </div>
 </div>
